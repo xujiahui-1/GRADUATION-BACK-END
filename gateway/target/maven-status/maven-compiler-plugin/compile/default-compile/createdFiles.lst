@@ -1,0 +1,5 @@
+com\xujiahui\gateway\config\CorsConfig.class
+com\xujiahui\gateway\config\ErrorHandlerConfig.class
+com\xujiahui\gateway\config\AuthGlobalFilter.class
+com\xujiahui\gateway\config\JsonExceptionHandler.class
+com\xujiahui\gateway\GatewayApplication.class

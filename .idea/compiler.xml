@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service_loginn" />
+        <module name="alibaba_cloud" />
+        <module name="service_statistics" />
+        <module name="configuration" />
+        <module name="common_utils" />
+        <module name="service_core" />
+        <module name="alibaba_vod" />
+        <module name="gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba_cs" target="11" />
+      <module name="alibaba_oss" target="11" />
+      <module name="service_login" target="11" />
+      <module name="service_main" target="11" />
+      <module name="service_oss" target="11" />
+      <module name="service_vod" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba_cloud" options="-parameters" />
+      <module name="alibaba_cs" options="-parameters" />
+      <module name="alibaba_oss" options="-parameters" />
+      <module name="alibaba_vod" options="-parameters" />
+      <module name="common_class" options="-parameters" />
+      <module name="common_utils" options="-parameters" />
+      <module name="configuration" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="service_class" options="-parameters" />
+      <module name="service_core" options="-parameters" />
+      <module name="service_login" options="-parameters" />
+      <module name="service_loginn" options="-parameters" />
+      <module name="service_main" options="-parameters" />
+      <module name="service_oss" options="-parameters" />
+      <module name="service_statistics" options="-parameters" />
+      <module name="service_vod" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+package com.xujiahui.login;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@SpringBootApplication
+@ComponentScan("com.xujiahui")
+@MapperScan("com.xujiahui.login.mapper")
+@EnableSwagger2
+public class ServiceLogin8114 {
+    public static void main(String[] args) {
+        SpringApplication.run(ServiceLogin8114.class);
+    }
+}

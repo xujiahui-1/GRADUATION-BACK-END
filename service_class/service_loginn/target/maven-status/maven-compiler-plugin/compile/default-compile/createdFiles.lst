@@ -1,0 +1,7 @@
+com\xujiahui\login\entity\StudentMember.class
+com\xujiahui\login\mapper\UcenterMemberMapper.class
+com\xujiahui\login\CenterApplication.class
+com\xujiahui\login\service\UcenterMemberService.class
+com\xujiahui\login\controller\UcenterMemberController.class
+com\xujiahui\login\service\impl\UcenterMemberServiceImpl.class
+com\xujiahui\login\config\MyMetaObjectHandler.class

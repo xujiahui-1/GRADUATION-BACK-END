@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xujiahui.edumain.mapper.XVideoMapper">
+
+    <select id="countvideoNum"
+            resultType="java.lang.Integer">
+        SELECT sum(play_count) FROM graduation.x_video
+        where date(x_video.gmt_create)=#{day}
+    </select>
+
+    <update id="videonumupdata"
+            >
+        update x_video set play_count=play_count+1 where video_source_id=#{videoId}
+    </update>
+</mapper>
